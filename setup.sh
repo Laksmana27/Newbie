@@ -43,7 +43,7 @@ checking_sc() {
     echo -ne
   else
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-    echo -e "\033[42m          404 NOT FOUND AUTOSCRIPT          \033[0m"
+    echo -e "\033[42m          LAKSMANA27 AUTOSCRIPT          \033[0m"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e ""
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
@@ -111,9 +111,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $3}')
+expx=$(https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -137,7 +137,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
