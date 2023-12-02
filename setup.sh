@@ -25,10 +25,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Wings VPN Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  HAHAHA WELCOME TO AUTOSCRIPT NEWBIE ${YELLOW}(${NC}${green} STABIL${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${green}WINGSVPN ${NC}${YELLOW}(${NC} ${green}Wings VPN ${NC}${YELLOW})${NC}"
-echo -e "       © Recode By Wing VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "         Auther : ${green}RLP27 ${NC}${YELLOW}(${NC} ${green}Newbie VPN ${NC}${YELLOW})${NC}"
+echo -e "       © Recode By Newbie VPN ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 5
@@ -36,22 +36,22 @@ sleep 5
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://github.com/Laksmana27/Emily/blob/main/Izin"
+data_ip="https://raw.githubusercontent.com/Laksmana27/Newbie/main/izin"
 checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
     echo -ne
   else
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
-    echo -e "\033[42m          LAKSMANA27 AUTOSCRIPT          \033[0m"
+    echo -e "\033[42m          404 NOT FOUND        \033[0m"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     echo -e ""
     echo -e "            ${RED}PERMISSION DENIED !${NC}"
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} t.me/wingsofhope"
-    echo -e "      ${GREEN}WhatsApp${NC} wa.me/6282261333421"
+    echo -e "      \033[0;36mTelegram${NC} t.me/rlp_27"
+    echo -e "      ${GREEN}WhatsApp${NC} wa.me/62895372305081"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
   fi
@@ -111,9 +111,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-username=$(curl https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $2}')
+username=$(curl https://raw.githubusercontent.com/Laksmana27/Newbie/main/izin | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
-expx=$(https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $3}')
+expx=$(curl https://raw.githubusercontent.com/Laksmana27/Newbie/main/izin | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -137,7 +137,7 @@ mai="datediff "$Exp" "$DATE""
 Info="(${green}Active${NC})"
 Error="(${RED}ExpiRED${NC})"
 today=`date -d "0 days" +"%Y-%m-%d"`
-Exp1=$(curl https://github.com/Laksmana27/Emily/blob/main/Izin | grep $MYIP | awk '{print $4}')
+Exp1=$(curl https://raw.githubusercontent.com/Laksmana27/Newbie/main/izin | grep $MYIP | awk '{print $4}')
 if [[ $today < $Exp1 ]]; then
 sts="${Info}"
 else
@@ -146,7 +146,7 @@ fi
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/wingshope/vip/main/"
+    REPO="https://raw.githubusercontent.com/Laksmana27/Newbie/main/"
 
 ####
 start=$(date +%s)
@@ -300,10 +300,10 @@ function pasang_domain() {
 echo -e ""
 clear
     echo -e "   .----------------------------------."
-echo -e "   |\e[1;32mPlease Select a Domain Type Below \e[0m|"
+echo -e "   |\e[1;32mPlease MASUKAN DOMAIN ANDA? \e[0m|"
 echo -e "   '----------------------------------'"
-echo -e "     \e[1;32m1)\e[0m Enter Your Subdomain"
-echo -e "     \e[1;32m2)\e[0m Use a Random Subdomain"
+echo -e "     \e[1;32m1)\e[0m DOMAIN SENDIRI"
+echo -e "     \e[1;32m2)\e[0m DOMAIN RANDOM"
 echo -e "   ------------------------------------"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " host
 echo ""
@@ -362,7 +362,7 @@ function password_default() {
     <code>User Script:</code> <code>$username</code>
     <code>Exp Script :</code> <code>$exp</code>
     ============================
-    (C) Copyright 2023 By Wings
+    (C) Copyright 2023 Laksmana27
     ============================
 "
 
@@ -1084,7 +1084,7 @@ rm -rf /root/domain
 secs_to_human "$(($(date +%s) - ${start}))"
 echo ""
 echo " "
-echo "=====================-[ WINGS VPN ]-===================="
+echo "=====================-[ NEWBIEVPN ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -1118,7 +1118,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "=====================-[ WINGSVPN ]-===================="
+echo "=====================-[ NEWBIEVPN ]-===================="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
