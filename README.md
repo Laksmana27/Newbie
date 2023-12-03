@@ -54,6 +54,6 @@
 ### Auther
 ```
 ```
-wings :<a href="https://t.me/rlp_27" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
+RLP27:<a href="https://t.me/rlp_27" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br>
 ```
 ```
